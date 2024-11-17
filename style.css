@@ -1,15 +1,91 @@
-/* countdown.css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /*ye evenly fix kar deta hai items ko*/
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("file:///C:/Users/Administrator/Downloads/amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
 
-#countdown-display {
-    text-align: center;
-    font-family: Arial, sans-serif;
-  }
-  
-  p {
-    display: inline-block;
-    padding: 10px 20px;
-    border: 1px solid #ccc;
+/* box2 */
+.add-first{
+color: #cccccc;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.add-sec{
+font-size: 1rem;
+margin-left: 3px;
+}
+.add-icon{
+    display: flex;  /*items ko line me lane ke liye*/
+    align-items: center; /*items ko top se bottom me center karne liye */
+}
+
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: pink; */
+    width: 620px;
+    height: 40px;
     border-radius: 5px;
-    margin: 5px;
-    font-size: 24px;
-  }
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center; /*jis bhi widh ya height me uske hisab se text-align center hoga*/
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center; /*horizontaly center me aa jata hai*/
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box 4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
