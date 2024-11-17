@@ -1,0 +1,15 @@
+/* countdown.css */
+
+#countdown-display {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 24px;
+  }
